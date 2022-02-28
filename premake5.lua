@@ -8,9 +8,9 @@ project "Box2D"
 
     files 
     {
-        "src/**.cpp"
-        "src/**.h"
-        "inlcude/**.h"
+        "src/**.cpp",
+        "src/**.h",
+        "include/**.h"
     }
 
     filter "system:windows"
@@ -19,7 +19,7 @@ project "Box2D"
     filter "configurations:Debug"
         runtime "Debug"
         symbols "on"
-        
+
     filter "configurations:Release"
         runtime "Release"
         optimize "on"
