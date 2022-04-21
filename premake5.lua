@@ -13,6 +13,12 @@ project "Box2D"
         "src/**.h",
         "include/**.h"
     }
+    
+    includedirs 
+    {
+        "src",
+        "include"
+    }
 
     filter "system:windows"
         systemversion "latest"
