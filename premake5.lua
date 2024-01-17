@@ -2,7 +2,7 @@ project "Box2D"
     language "C++"
     kind "StaticLib"
     cppdialect "C++11"
-    staticruntime "on"
+    staticruntime "off"
 
     architecture "x86_64"
 
