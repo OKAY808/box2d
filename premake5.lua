@@ -4,6 +4,8 @@ project "Box2D"
     cppdialect "C++11"
     staticruntime "on"
 
+    architecture "x86_64"
+
     targetdir ("%{prj.location}/bin/" .. outputdir)
     objdir ("%{prj.location}/bin-int/" .. outputdir)
 
